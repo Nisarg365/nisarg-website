@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nisarg's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #0073e6;
+        }
+
+        .file-section {
+            margin-top: 20px;
+        }
+
+        .file-upload {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .file-upload input {
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Nisarg's Personal Webpage</h1>
+    </header>
+
+    <section>
+        <h2>Welcome to My Webpage</h2>
+        <p>This is a simple personal webpage to showcase my files.</p>
+    </section>
+
+    <section class="file-section">
+        <h2>My Files</h2>
+        <p>You can upload and view files here:</p>
+
+        <div class="file-upload">
+            <form action="#" method="post" enctype="multipart/form-data">
+                <label for="fileUpload">Choose a file to upload:</label>
+                <input type="file" id="fileUpload" name="fileUpload">
+                <button type="submit">Upload File</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Nisarg. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
